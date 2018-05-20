@@ -11,3 +11,7 @@
 1. Create the database: `python manage.py migrate`
 1. Start the development server: `python manage.py runserver`
 1. Execute unit and functional tests: `python manage.py test`
+
+## Refactoring
+
+1. Get a list of all the test classes and methods: `grep -E "class|def" lists/tests.py`
